@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+
+
+    <TextView
+        android:layout_width = "wrap_content"
+        android:layout_height = "wrap_content"
+        android:text = "welcome to people link "
+        android:id = "@+id/textView"
+        android:layout_centerHorizontal = "true"
+        android:textColor = "#ff7aff24"
+        android:textSize = "35dp"
+        tools:ignore="MissingConstraints" />
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="admin"
+        android:id="@+id/button"
+        android:layout_marginTop = "46dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="03dp"
+        android:layout_marginRight="05dp"
+        android:layout_margin="@dimen/cardview_compat_inset_shadow"
+        android:layout_toLeftOf="@+id/textView"
+        android:layout_toStartOf="@+id/textView"
+
+        tools:ignore="MissingConstraints" />
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="employe"
+        android:id="@+id/button2"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="@dimen/cardview_compat_inset_shadow"
+        android:layout_toRightOf="@+id/textView2"
+        android:layout_toEndOf="@+id/textView2"
+
+        tools:ignore="MissingConstraints,UnknownIdInLayout" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
